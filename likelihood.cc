@@ -92,7 +92,7 @@ int main() {
         }
 
         fout << mu_step << " " << likelihood_mu << endl;
-        fout_nll << mu_step << " " <<  likelihood_mu << endl;
+        fout_nll << mu_step << " " <<  nll_likelihood << endl;
         fout_delta_nll << mu_step << " " << delta_likelihood << endl;
     }
 
